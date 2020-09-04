@@ -91,10 +91,16 @@ Also you may get a debian package by running:
 
 
 MacOS
-
+```
 sudo launchctl unload /System/Library/LaunchDaemons/org.cups.cupsd.plist
+
 brew install cmake
+
 mkdir build && cd build && cmake /path/to/source
+
 cmake --build .
+
 sudo make install
+
 sudo launchctl load /System/Library/LaunchDaemons/org.cups.cupsd.plist
+```
